@@ -75,3 +75,16 @@ body, html{
   .loading .line:nth-child(8){
       background: red;
   }
+  .one{color: white;
+text-align: center;
+margin-top: -60px;
+font-size: 20px;}
+
+.two{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+  h1{color: white;
+text-align: center;
+margin-top: 55px;}
