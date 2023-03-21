@@ -8,3 +8,5 @@ $dbcon = createDbConnection();
 $sql = "INSERT INTO product (name) VALUES ('Tuutti'),('Strösseli'),('Jaatelokone'),('Kastike')";
 
 $dbcon ->exec($sql);
+
+//testing//
