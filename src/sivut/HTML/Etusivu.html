@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>My Webshop</title>
-    <link rel="stylesheet" href="/src/Etusivu.css">
+    <link rel="stylesheet" href="/Verkkopalveluprojekti/src/Etusivu.css">
 </head>
 <body>
     <header>
@@ -12,6 +12,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Contact</a></li>
+                <li><a href="/Verkkopalveluprojekti/src/sivut/HTML/Cart.html">Cart</a></li>
             </ul>
         </nav>
     </header>
@@ -44,6 +45,20 @@
             <button>Tutustu</button>
         </div>
         <!-- Add more products here -->
+        <!--Ostoskorin napit-->
+        <!-- Add a button or link to add an item to the cart -->
+        <button onclick="addToCart()">Add to Cart</button>
+
+        <!--Add a button or link to view the cart -->
+        <button onclick="displayCart()">View Cart
+        <a href="/Verkkopalveluprojekti/src/sivut/HTML/Cart.html"></a></button>
+
+        <!-- Add an element to display the total cost of the items in the cart -->
+        <div>Total Cost: <span id="total-cost"></span></div>
+
+        <!--Add an element to display the items in the cart -->
+        <div id="cart"></div>
+        <!--ostoskorin napit-->
     </main>
     
     <footer>
